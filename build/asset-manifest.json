@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/udupi/static/css/main.da29176b.css",
-    "main.js": "/udupi/static/js/main.d5f86cf2.js",
+    "main.js": "/udupi/static/js/main.d4895622.js",
     "static/js/453.5b56f6da.chunk.js": "/udupi/static/js/453.5b56f6da.chunk.js",
     "index.html": "/udupi/index.html",
     "main.da29176b.css.map": "/udupi/static/css/main.da29176b.css.map",
-    "main.d5f86cf2.js.map": "/udupi/static/js/main.d5f86cf2.js.map",
+    "main.d4895622.js.map": "/udupi/static/js/main.d4895622.js.map",
     "453.5b56f6da.chunk.js.map": "/udupi/static/js/453.5b56f6da.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da29176b.css",
-    "static/js/main.d5f86cf2.js"
+    "static/js/main.d4895622.js"
   ]
 }
