@@ -12,8 +12,8 @@ import {
 } from "./constants/img";
 import { db } from "../firebase";
 import { doc, getDoc, setDoc } from "firebase/firestore";
-import BillComponent from "./BillComponent";
-import { Timestamp } from "firebase/firestore";
+// import BillComponent from "./BillComponent";
+// import { Timestamp } from "firebase/firestore";
 import { useNavigate } from "react-router-dom";
 
 const Body = () => {
@@ -24,7 +24,7 @@ const Body = () => {
   const [isSambarChecked, setIsSambarChecked] = useState(false);
   const [inputValue, setInputValue] = useState("");
   const [changeCaluclator, setChangeCal] = useState(true);
-  const [itemTitle, setItemTitle] = useState(true);
+  // const [itemTitle, setItemTitle] = useState(true);
   const [qtyCount, setQtyCount] = useState(1);
   const [clickedItems, setClickedItems] = useState({});
   const [quantities, setQuantities] = useState({});
@@ -120,7 +120,7 @@ const Body = () => {
     setIsChutneyChecked(false);
     setIsSambarChecked(false);
     setInputValue("");
-    setItemTitle(true);
+    // setItemTitle(true);
     setQtyCount(1);
     setClickedItems({});
     updateBillNumber(
